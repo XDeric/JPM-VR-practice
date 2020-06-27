@@ -1,0 +1,23 @@
+From 3d64fc5b0fc6a314836565940c06b87e199b7ad9 Mon Sep 17 00:00:00 2001
+From: EricM <eeeric3995@yahoo.com>
+Date: Sat, 27 Jun 2020 17:16:57 -0400
+Subject: [PATCH] create patch file
+
+---
+ client3.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/client3.py b/client3.py
+index bd90e2a..35a8df1 100644
+--- a/client3.py
++++ b/client3.py
+@@ -60,4 +60,4 @@ if __name__ == "__main__":
+ 			prices[stock] = price
+ 			print ("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+ 
+-		print ("Ratio %s" % (getRatio(prices['ABC'], prices['DEF'])))
++		print ("Ratio %s" % (getRatio(prices['ABC'], prices['DEF'])))
+\ No newline at end of file
+-- 
+2.20.1 (Apple Git-117)
+
